@@ -15,7 +15,7 @@ public class FoodProduct extends Products {
         return super.getName();
     }
 
-    public double applyDiscount() {
+    public double applyDiscountFood() {
         this.discount = this.Price * 0.85;
         return discount;
     }

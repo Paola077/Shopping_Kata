@@ -8,7 +8,7 @@ public class FoodProductTest {
     void FoodPriceWithDiscount() {
         FoodProduct foodProduct = new FoodProduct("Apple",2.00);
 
-        double discount = foodProduct.applyDiscount();
+        double discount = foodProduct.applyDiscountFood();
 
         assertEquals(1.70,discount);
     }

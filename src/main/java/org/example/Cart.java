@@ -5,18 +5,17 @@ import java.util.ArrayList;
 
 public class Cart {
 
-    private ArrayList<Products> cartList = new ArrayList<Products>();
+   public Cart(){}
+
+    private ArrayList<Products> cartList = new ArrayList<>();
 
 
     public void addFoodProduct(FoodProduct foodProduct) {
-        for (Products products : cartList) {
-            if(foodProduct.equals(foodProduct.getName())) {
-                throw new IllegalArgumentException("This product alredy exist in the cart ");
-            }
+        if (cartList.contains(foodProduct)) {
+            throw new IllegalArgumentException("This product alredy exist in the cart ");
         }
 
-       FoodProduct newFoodProduct1 = new FoodProduct("Pera",2.00);
-        cartList.add(newFoodProduct1);
+        cartList.add(foodProduct);
     }
 
     public ArrayList<Products> getAllProducts() {
@@ -24,3 +23,4 @@ public class Cart {
     }
 }
 
+//Añadir un count de productos

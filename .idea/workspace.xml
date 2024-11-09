@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="56233d9a-8fc2-4b30-8c3f-26632a2d752a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FoodProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FoodProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FoodProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FoodProductTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,19 +51,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.CartTest.WhenAddAProductToTheCartTheProductCannotBeRepeated.executor": "Run",
-    "JUnit.FoodProductTest.FoodPriceWhitoutDiscount.executor": "Run",
-    "JUnit.FoodProductTest.theFoodPriceWithDiscount.executor": "Run",
-    "JUnit.FreeProductTest.thePriceOfFreeProductsIsAlwaysZero.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/paolaperdomo/Desktop/ProyectBackend/shopping_kata/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartTest.WhenAddAProductToTheCartTheProductCannotBeRepeated.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FoodProductTest.FoodPriceWhitoutDiscount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FoodProductTest.theFoodPriceWithDiscount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FreeProductTest.thePriceOfFreeProductsIsAlwaysZero.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/paolaperdomo/Desktop/ProyectBackend/shopping_kata/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Main">
+}</component>
+  <component name="RunManager" selected="JUnit.CartTest.WhenAddAProductToTheCartTheProductCannotBeRepeated">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="shopping_kata" />
@@ -116,8 +120,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CartTest.WhenAddAProductToTheCartTheProductCannotBeRepeated" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FoodProductTest.FoodPriceWhitoutDiscount" />
         <item itemvalue="JUnit.FoodProductTest.theFoodPriceWithDiscount" />
         <item itemvalue="JUnit.FreeProductTest.thePriceOfFreeProductsIsAlwaysZero" />
